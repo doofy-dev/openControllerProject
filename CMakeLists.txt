@@ -51,4 +51,4 @@ add_custom_target(
     WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(${PROJECT_NAME} ${SRC_LIST} src/input/potentiometer.cpp src/input/potentiometer.h src/utils/axis.h src/utils/axis.cpp src/input/joystick.cpp src/input/joystick.h src/config.h)
+add_executable(${PROJECT_NAME} ${SRC_LIST})
